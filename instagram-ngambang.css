@@ -1,0 +1,73 @@
+.sticky {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.sticky img {
+  width: 50px;
+  height: 50px;
+}
+
+h1 {
+  color: #394e63;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #34495e;
+  font-style: italic;
+}
+
+p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+p strong {
+  color: #e74c3c;
+}
+p em {
+  color: #2980b9;
+}
+
+.box {
+  background-color: rgb(230, 230, 240);
+  padding: 15px;
+  margin-bottom: 50px;
+  border-radius: 8px;
+  box-shadow: 1px 2px 5px 1px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-8px);
+}
+
+.igadit {
+  background-color: #222;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.igadit a {
+  display: flex;
+  align-items: center;
+  color: #eee;
+  font-weight: 600;
+  gap: 8px;
+}
+
+.fazztrack a {
+  gap: 8px;
+}
+
+.fazztrack a img {
+  height: 120px;
+}
+
+.adit {
+  background-color: antiquewhite;
+}
