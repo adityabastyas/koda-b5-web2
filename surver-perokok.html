@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Form Survey Perokok" />
+    <title>Form Survey Perokok</title>
+  </head>
+  <body>
+    <div>
+      <h1>Form Survey Perokok</h1>
+    </div>
+    <div>
+      <form action="">
+        <label for="nama">Nama</label>
+        <input type="text" id="nama" placeholder="Masukkan Nama" required />
+        <br />
+        <label for="umur">Umur</label>
+        <input type="number" name="umur" id="umur" required />
+        <br />
+        <p>Jenis Kelamin</p>
+        <div>
+          <input type="radio" name="gender" id="lk" />
+          <label for="lk">L</label>
+        </div>
+        <div>
+          <input type="radio" name="gender" id="pr" />
+          <label for="pr">P</label>
+        </div>
+        <label for="perokok">Apakah anda seorang perokok?</label>
+        <select name="perokok" id="perokok">
+          <option value="" disabled selected>Pilih jawaban</option>
+          <option value="ya">Ya</option>
+          <option value="tidak">Tidak</option>
+        </select>
+
+        <br />
+        <label for="">Brand rokok yang digunakan</label>
+        <div>
+          <input type="checkbox" name="malboro" id="malboro" />
+          <label for="malboro">Malboro</label>
+        </div>
+        <div>
+          <input type="checkbox" name="sampoernaMild" id="sampoernaMild" />
+          <label for="sampoernaMild">Sampoerna Mild</label>
+        </div>
+        <div>
+          <input type="checkbox" name="gudangGaram" id="gudangGaram" />
+          <label for="gudangGaram">GudangGaram</label>
+        </div>
+        <div>
+          <input type="checkbox" name="jarumSuper" id="jarumSuper" />
+          <label for="jarumSuper">Jarum Super</label>
+        </div>
+        <div>
+          <input type="checkbox" name="wismilak" id="wismilak" />
+          <label for="wismilak">Wismilak</label>
+        </div>
+
+        <br />
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <p>Hasil survey dapat dilihat di :</p>
+    <a href="./hasil-survey.html">hasil survey</a>
+    <br />
+    <br />
+
+    <a href="./index.html">kembali ke menu utama</a>
+  </body>
+</html>
